@@ -14,7 +14,6 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".js"],
     alias: {
-      // TODO: add more aliases and paths to config later
       "@st-script": path.resolve(
         __dirname,
         "../../../../../script.js"
@@ -69,7 +68,7 @@ module.exports = {
       const match1 = request.match(regex1);
       if (match1) {
         // Extension required since this will be the string verbatim in the final bundle
-        // TODO: This externalizes all ST imports as .js files. Add your own implementation if needed.
+        // This externalizes all ST imports as .js files. Add your own implementation if needed.
         return callback(null, `../../../../${match1[1]}.js`);
       }
       const regex2 = /^@st-script$/;
