@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "strict": true,
+        "outDir": "./out",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "baseUrl": "src/",
+        "paths": {
+            "@st-script": ["../../../../../script.js"],
+            "@st/*": ["../../../../*"],
+        }
+
+    },
+    "include": [
+        "./src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "bin"
+    ],
+
+}

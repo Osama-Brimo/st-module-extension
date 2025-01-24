@@ -1,0 +1,11 @@
+{
+    "display_name": "st-module-extension",
+    "loading_order": 1,
+    "requires": [],
+    "optional": [],
+    "js": "dist/st-module-extension.js",
+    "css": "style.css",
+    "author": "Osama-Brimo",
+    "version": "1.0.0",
+    "homePage": "https://github.com/Osama-Brimo/st-module-extension"
+}
